@@ -4,7 +4,7 @@ import telebot
 from telebot.types import Update, InlineKeyboardMarkup, InlineKeyboardButton
 
 # Инициализация бота (токены берем из переменных окружения Render)
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = '8110184384:AAFFQcAUV1dt7pJ8P7VU-tLAYt3CnG3a6Rk'
 SPONSOR_CHANNEL = os.getenv("SPONSOR_CHANNEL")  # ID канала, например, -100123456789
 SPONSOR_LINK = os.getenv("SPONSOR_LINK")        # Ссылка на канал спонсора
 
